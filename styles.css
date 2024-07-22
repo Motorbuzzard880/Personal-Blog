@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+/*--------- Header y menu -----------*/
+
+header {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: start;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.progress { /*span */
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu-btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px;
+    color: #a7a5a5;
+    font-size: 18px;
+}
+
+.menu-btn:hover {
+    color: #fff;
+    background-color: #7e7c7c;
+    transition: 0.4s;
+}
+
+/*------------------Main Section----------------------*/
+
+.saludos {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 16em;
+}
+
+
+
+.saludo-1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.parrafo-1 {
+    padding-bottom: 1.5rem;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.parrafo-2 {
+    max-width: 600px;
+    margin: auto;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.arrow /*span */{
+    background-color: #00acee;
+    color:#ffffff;
+    padding: 1px;
+}
+
+.github /*span */{
+    font-weight: bold;
+}
+
+.aqui /*span */{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*-------------------Notas------------------*/
+
+.notas {
+    max-width: 40%;
+    margin: auto;
+    padding-top: 10em ;
+}
+
+.li-notes {
+    border-radius: 0;
+    margin: auto;
+    padding: 15px 0 15px 0;
+    border: none;
+    border-top: 1px solid #a7a5a5;
+    list-style: none;
+}
+.li-notes:hover {
+    background-color: #eee;
+}
+
+.h3-notes {
+    padding-bottom: 1.5em;
+}
+
+
+/*-----------FOOTER-----------------*/
+footer {
+
+    width: 100%;
+    padding: 1.5em;
+    padding-top: 2em;
+    margin: auto;
+}
+
+.h3-footer {
+    padding-bottom: 1.5rem;
+}
+
+.footer-text {
+    text-align: left;
+    justify-content:center;
+    font-size: 20px;
+}
+
+
+
+/*-----------------Changelog-------------------*/
+
+
+.changes {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 10em ;
+}
+
+.li-ch {
+    border-radius: 0;
+    margin: auto;
+    padding: 15px 0 15px 0;
+    border: none;
+    border-top: 1px solid #a7a5a5;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.h3-c {
+    padding-bottom: 1.5em;
+}
+
+.date {
+    display: inline-flex;
+    
+}
+
+
+
+
+
+/*---------------Media Querys-----------*/
+
+
+@media (min-width: 600px) {
+    footer {
+        max-width: 55%;
+        margin: auto;
+        padding: 7em;
+    }
+}
+
+@media (min-width: 600px) {
+    header {
+        padding: 15px 35px 0 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 70vw;
+        margin: auto;
+    }
+
+}
+
+
+@media (min-width: 600px) {
+    .changes {
+        max-width: 50%;
+        margin: auto;
+        padding: 7em;
+    }
+}
