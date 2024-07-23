@@ -10,10 +10,15 @@
 /*--------- Header y menu -----------*/
 
 header {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+    padding: 15px 35px 0 35px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+
+
+    
 }
 
 h1 {
@@ -44,12 +49,12 @@ a {
     border-radius: 10px;
     padding: 8px;
     color: #a7a5a5;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .menu-btn:hover {
     color: #fff;
-    background-color: #7e7c7c;
+    background-color: #b4b3b3;
     transition: 0.4s;
 }
 
@@ -110,7 +115,7 @@ a {
 .li-notes {
     border-radius: 0;
     margin: auto;
-    padding: 15px 0 15px 0;
+    padding: 15px 0 15px 5px;
     border: none;
     border-top: 1px solid #a7a5a5;
     list-style: none;
@@ -189,14 +194,13 @@ footer {
     }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     header {
-        padding: 15px 35px 0 35px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 70vw;
-        margin: auto;
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
     }
 
 }
