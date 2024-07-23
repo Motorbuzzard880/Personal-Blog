@@ -18,14 +18,9 @@
     </header>
     <main>
         <section>
-            <div class="notas"> 
-                <h3 class="h3-notes">Últimas notas</h3>
-                <ul>
-                    <a href=""><li class="li-notes">TÍTULO ENTRADA</li></a>
-                    <a href=""><li class="li-notes">TÍTULO ENTRADA</li></a>
-                    <a href=""><li class="li-notes">TÍTULO ENTRADA</li></a>
-                </ul>
-            </div>
+            <article>
+                <h2>¿Porque? No hay porque</h2>
+            </article>
         </section>
     </main>
     <footer>
