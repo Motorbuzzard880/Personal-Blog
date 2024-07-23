@@ -64,7 +64,7 @@ a {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding-top: 16em;
+    padding-top: 14em;
 }
 
 
@@ -192,24 +192,27 @@ footer {
         margin: auto;
         padding: 7em;
     }
-}
-
-@media (max-width: 600px) {
-    header {
-    width: 100%;
-    padding: 1.5rem;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    }
-
-}
-
-
-@media (min-width: 600px) {
     .changes {
         max-width: 50%;
         margin: auto;
         padding: 7em;
     }
 }
+
+
+@media (max-width: 600px) {
+    header {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    margin-top: 8px;
+    justify-content: space-between;
+    }
+    
+    h1 {
+        padding-right: 60px;
+        margin-left: 0;
+    }
+}
+
