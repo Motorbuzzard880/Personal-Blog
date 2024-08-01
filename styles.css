@@ -290,6 +290,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: #a7a5a5;
     }
     
 .menu-btn {
